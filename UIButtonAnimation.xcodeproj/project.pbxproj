@@ -13,6 +13,7 @@
 		D6AF74A924E1694000D7E758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AF74A724E1694000D7E758 /* Main.storyboard */; };
 		D6AF74AB24E1694300D7E758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AF74AA24E1694300D7E758 /* Assets.xcassets */; };
 		D6AF74AE24E1694300D7E758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AF74AC24E1694300D7E758 /* LaunchScreen.storyboard */; };
+		D6AF74B624E1708E00D7E758 /* UIButtonAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF74B524E1708E00D7E758 /* UIButtonAnimationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D6AF74AA24E1694300D7E758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6AF74AD24E1694300D7E758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6AF74AF24E1694300D7E758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6AF74B524E1708E00D7E758 /* UIButtonAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonAnimationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D6AF74A124E1694000D7E758 /* AppDelegate.swift */,
 				D6AF74A324E1694000D7E758 /* SceneDelegate.swift */,
 				D6AF74A524E1694000D7E758 /* ViewController.swift */,
+				D6AF74B524E1708E00D7E758 /* UIButtonAnimationExtension.swift */,
 				D6AF74A724E1694000D7E758 /* Main.storyboard */,
 				D6AF74AA24E1694300D7E758 /* Assets.xcassets */,
 				D6AF74AC24E1694300D7E758 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6AF74B624E1708E00D7E758 /* UIButtonAnimationExtension.swift in Sources */,
 				D6AF74A624E1694000D7E758 /* ViewController.swift in Sources */,
 				D6AF74A224E1694000D7E758 /* AppDelegate.swift in Sources */,
 				D6AF74A424E1694000D7E758 /* SceneDelegate.swift in Sources */,
