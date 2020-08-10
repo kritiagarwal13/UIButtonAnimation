@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func shakeBtnTapped(_ sender: UIButton) {
-        
+        sender.shake()
     }
     
 
