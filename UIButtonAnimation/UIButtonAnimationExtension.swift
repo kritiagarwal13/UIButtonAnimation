@@ -12,7 +12,9 @@ import UIKit
 extension UIButton {
     
     func pulsate() {
-        let pulse = CASpringAnimation.init(keyPath: "transform.scale")
+        
+        //CASpringAnimation allows control over physically based attributes such as the spring's damping and stiffness.
+        let pulse = CASpringAnimation.init(keyPath: "transform.scale") // because for pulse animation, we need to spring the view
         pulse.duration = 0.3
         pulse.fromValue = 0.95
         pulse.toValue = 1.0
@@ -25,7 +27,7 @@ extension UIButton {
     }
     
     func flash() {
-        let flash = CABasicAnimation(keyPath: "opacity")
+        let flash = CABasicAnimation(keyPath: "opacity") //because flash plays with view opacity
         flash.duration = 0.3
         flash.fromValue = 1
         flash.toValue = 0.1
@@ -36,7 +38,7 @@ extension UIButton {
     }
     
     func shake() {
-        let shake = CABasicAnimation(keyPath: "position")
+        let shake = CABasicAnimation(keyPath: "position") //because shake plays with views position
         shake.duration = 0.1
         shake.repeatCount = 2
         shake.autoreverses = true
