@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func flashBtnTapped(_ sender: UIButton) {
-        
+        sender.flash()
     }
     
     @IBAction func shakeBtnTapped(_ sender: UIButton) {
